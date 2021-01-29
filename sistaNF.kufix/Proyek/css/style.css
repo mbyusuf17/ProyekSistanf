@@ -1,0 +1,102 @@
+html{
+  background-image: url("../image/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+body{
+  background-color: transparent;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: default;
+  background-color: black;
+  width: 100%;
+  padding: 0px;
+}
+.flex-logo{
+  color: white;
+  border-right: double;
+  border-color: white;
+  margin: 0;
+  padding: 10px;
+}
+.flex-item{
+  align-self: flex-end;
+}
+.flex-nav-container{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  padding: 0px;
+}
+.flex-nav-item{
+  color: white;
+  margin: 0;
+  padding: 10px;
+  align-self: flex-end;
+}
+nav a:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #444444;
+  text-decoration: none;
+}
+.user-info-container{
+  background-color: rgba(255, 255, 255, 0.4);
+  border: hidden;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main{
+  width: 100%;
+  display: flex;
+}
+.user-info-photo{
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+.user-info{
+  border: none;
+}
+.user-info h5{
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 2px;
+  font-weight: normal;
+  text-align: center;
+}
+.user-info button{
+  width: 100%;
+}
+.main-content{
+  background-color: rgba(255, 255, 255, 0.4);
+  border: hidden;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 90%;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+@media only screen and (max-width: 700px) {
+  body {  
+    margin-top: auto;
+  }
+}

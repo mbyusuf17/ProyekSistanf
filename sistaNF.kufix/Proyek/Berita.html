@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>SISTA NEWS</title>
+</head>
+
+<body>
+  <header class="flex-container">
+    <h1 class="flex-logo">SISTANF</h1>
+    <nav class="flex-item flex-nav-container">
+      <a class="flex-nav-item" href="Home.html">HOME</a>
+      <a class="flex-nav-item" href="Halaman_Jadwal_Seminar.html">JADWAL</a>
+      <a class="flex-nav-item" href="Halaman_Daftar_Seminar_TA.html">DAFTAR</a>
+      <a class="flex-nav-item" href="Berita.html">BERITA</a>
+      <a class="flex-nav-item" id="tambah-seminar" href="Halaman_Admin_Pemakalah_TA.html">TAMBAH SEMINAR</a>
+      <a class="flex-nav-item" id="peserta-seminar" href="Halaman_Admin_Daftar_Peserta_TA.html">PESERTA SEMINAR</a>
+      <a class="flex-nav-item" id="daftar-seminar" href="Halaman_Admin_Daftar_Seminar_TA.html">DAFTAR SEMINAR TA</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="user-info-container">
+      <img src="image/user.png" class="user-info-photo" id="user-photo" />
+      <div class="user-info">
+        <h5 id="user-name">Nama : </h5>
+        <h5 id="user-class"></h5>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+    <div class="main-content">
+      <h3 class="mt-5 text-center">Berita Terkini</h3>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col mb-5">
+            <div class="card" style="width: 14rem;">
+              <img src="image/1.jpeg" class="card-img-top" alt="gambar1">
+              <div class="card-body">
+                <h5 class="card-title">Seminar dan Workshop</h5>
+                <p class="card-text">Ada kabar gembira nih, kali ini LPPM STT Nurul Fikri menyelenggarakan seminar dan workshop tentang penerapan Materi MicroService.  .</p>
+                <a href="https://nurulfikri.ac.id/" class="btn btn-info">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 14rem;">
+              <img src="image/gambar6.jpg" class="card-img-top" alt="gambar2">
+              <div class="card-body">
+                <h5 class="card-title">Kuliah Umum STTNF</h5>
+                <p class="card-text">STT Terpadu Nurul Fikri mempersembahkan kuliah umum daring dengan tema "PERAN PEMUDA UNTUK NEGARA" .</p>
+                <a href="https://nurulfikri.ac.id/" class="btn btn-info">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 14rem;">
+              <img src="image/3.jpeg" class="card-img-top" alt="gambar3">
+              <div class="card-body">
+                <h5 class="card-title">Kalender Akademik STT Nurul Fikri</h5>
+                <p class="card-text">Sedikit lagi ada kejutan untuk Mahasiswa/i yaitu UAS dan pesiapan lainnya di
+                  kalender STT Nurul Fikri . Apa aja itu yuk kepoin ...</p>
+                <a href="https://nurulfikri.ac.id/" class="btn btn-info">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 14rem;">
+              <img src="image/5.jpeg" class="card-img-top" alt="gambar4">
+              <div class="card-body">
+                <h5 class="card-title">Menyambut Beasiswa Tahun 2021</h5>
+                <p class="card-text">Wah ada kejutan buat kamu yang ingin berkuliah IT dan jago ngaji cuma di STT Nurul
+                  Fikri. Yuk kepoin...</p>
+                <a href="https://nurulfikri.ac.id/" class="btn btn-info">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <marquee>&copy 2020_SISTA_STTNF</marquee>
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
